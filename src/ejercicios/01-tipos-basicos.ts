@@ -1,8 +1,3 @@
-
-/*
-    ===== Código de TypeScript =====
-*/
-
 // Tipado de variables
 
 let nombre = "Alejandro"; // De forma implicita --- infiere el tipo de dato
