@@ -1,6 +1,6 @@
 //Desestructuración de argumentos
 
-interface Producto {
+export interface Producto {
     desc: string;
     precio: number;
 }
@@ -16,7 +16,7 @@ const tablet: Producto = {
 }
 
 
-function calculaISV( productos: Producto[] ): number[] {
+export function calculaISV( productos: Producto[] ): number[] {
 
     let total = 0;
 
